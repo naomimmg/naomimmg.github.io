@@ -39,26 +39,28 @@ menu_settings:
      # - title: Blog
      #   url: /blog
      #   icon: ni-books text-primary
-    - title: 'Features'
-      url: '/features'     
-    - title: Pricing
-      url: /pricing        
-    - title: 'Blog'
+    - title: 'About'
+      url: '/about'           
+    - title: 'Projects'
       submenu_items:
-      - title: Blog
+      - title: Research
         url: /blog
         icon: ni-books text-primary
-      - title: Narrow Grid Example
+      - title: Collaborations
         url: /blog-narrow-example
         icon: ni-align-center text-success
-      - title: Wide Grid Example
+      - title: Online Apps
         url: /blog-grid-example
-        icon: ni-image text-info
-      - title: List Example
-        url: /blog-list-example
-        icon: ni-bullet-list-67 text-default    
-    - title: 'About'
-      url: '/about'
+        icon: ni-image text-info 
+    - title: 'Tutorials'
+      url: '/features'
+      submenu_items:
+      - title: Statistical Methods
+        url: /blog
+        icon: ni-books text-primary
+      - title: Coding 
+        url: /blog-narrow-example
+        icon: ni-align-center text-success
     - title: 'Contact'
       url: '/contact'
 
