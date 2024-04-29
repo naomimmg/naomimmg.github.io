@@ -1,5 +1,5 @@
 basic_settings:
-  site_title: Naomi Gutierrez
+  site_title: Naomi Martinez Gutierrez
   favicon_image: /assets/img/favicon.png
 
 header_settings:
@@ -32,13 +32,13 @@ blog_settings:
 menu_settings:
   menu_items:
     - title: 'Home'
-      submenu_items:
-      - title: Landing Page
-        url: /
-        icon: ni-spaceship text-success    
-      - title: Blog
-        url: /blog
-        icon: ni-books text-primary
+     # submenu_items:
+     # - title: Landing Page
+     #   url: /
+     #   icon: ni-spaceship text-success    
+     # - title: Blog
+     #   url: /blog
+     #   icon: ni-books text-primary
     - title: 'Features'
       url: '/features'     
     - title: Pricing
