@@ -52,16 +52,16 @@ menu_settings:
         icon: ni-books text-primary
       - title: Online Apps
         url: /blog-grid-example
-        icon: ni-image text-info 
+        icon: ni-mobile-button text-info 
     - title: 'Tutorials'
       url: '/features'
       submenu_items:
       - title: Statistical Methods
         url: /blog
-        icon: ni-books text-primary
+        icon: ni-chart-bar-32 text-primary
       - title: Coding 
         url: /blog-narrow-example
-        icon: ni-align-center text-success
+        icon: ni-ruler-pencil text-success
     - title: 'Contact'
       url: '/contact'
 
