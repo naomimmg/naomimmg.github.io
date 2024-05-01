@@ -32,6 +32,7 @@ blog_settings:
 menu_settings:
   menu_items:
     - title: 'Home'
+      url: /home
      # submenu_items:
      # - title: Landing Page
      #   url: /
@@ -45,10 +46,10 @@ menu_settings:
       submenu_items:
       - title: Research
         url: /blog
-        icon: ni-books text-primary
+        icon: ni-book-bookmark text-primary
       - title: Collaborations
         url: /blog-narrow-example
-        icon: ni-align-center text-success
+        icon: ni-books text-primary
       - title: Online Apps
         url: /blog-grid-example
         icon: ni-image text-info 
