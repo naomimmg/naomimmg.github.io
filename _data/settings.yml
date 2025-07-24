@@ -46,6 +46,12 @@ menu_settings:
       - title: Skills
         url: /blog
         icon: ni-book-bookmark text-primary
+      - title: Work Experience
+        url: /blog
+        icon: ni-book-bookmark text-primary
+      - title: Presentations
+        url: /blog
+        icon: ni-book-bookmark text-primary
     - title: 'Projects'
       submenu_items:
       - title: Research
