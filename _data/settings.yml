@@ -43,6 +43,9 @@ menu_settings:
     - title: 'About'
       url: '/about' 
       submenu_items:
+      - title: About me
+        url: '/about'
+        icon: ni-book-bookmark text-primary
       - title: Skills
         url: /blog
         icon: ni-book-bookmark text-primary
