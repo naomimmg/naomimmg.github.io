@@ -62,7 +62,7 @@ menu_settings:
       - title: Coding 
         url: /blog-narrow-example
         icon: ni-ruler-pencil text-success
-    - title: 'Contact'
+    - title: 'Consulting'
       url: '/contact'
 
 footer_settings:
