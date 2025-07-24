@@ -43,8 +43,9 @@ menu_settings:
     - title: 'About'
       url: '/about' 
       submenu_items:
-    - title: Skills
-      url: /blog          
+      - title: Skills
+        url: /blog
+        icon: ni-book-bookmark text-primary
     - title: 'Projects'
       submenu_items:
       - title: Research
