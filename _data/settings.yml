@@ -40,7 +40,7 @@ menu_settings:
         url: '/about'
         icon: ni-circle-08 text-primary # Old: ni-book-bookmark text-primary
       - title: Skills
-        url: /blog # Note: You may want to create a dedicated /skills page
+        url: /_includes/components/teams/team-carousel-2.html
         icon: ni-atom text-success # Old: ni-book-bookmark text-primary
       - title: Work Experience
         url: /blog # Note: You may want to create a dedicated /experience page
