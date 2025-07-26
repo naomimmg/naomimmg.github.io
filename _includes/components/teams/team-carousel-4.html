@@ -3,20 +3,19 @@
     <div class="row">
       <div class="col-md-8 mx-auto text-center mb-5">
         <h3 class="display-3">Presentations</h3>
-        <p class="lead">A collection of presentations on psychological research methods and interpretation.</p>
-      </div>
+        </div>
     </div>
     <div class="row">
       <div class="col-lg-10 ml-auto mr-auto">
         <div class="card">
           <div class="card-body">
 
-            <!-- 1. Bootstrap Carousel for Presentations -->
             <div id="presentationsCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
               <div class="carousel-inner">
 
-                <!-- Slide 1 -->
-                <div class="carousel-item active" data-pdf-path="/assets/pdf/presentation-clinical-significance.pdf">
+                <div class="carousel-item active" 
+                     data-pdf-path="/assets/pdf/presentation-clinical-significance.pdf"
+                     data-caption="Martinez-Guttierez, N., Mills, L. & Pepler, D. (2025, June 12-14). Interpretation of Clinical Significance in Psychological Research [12-minute talk]. 85th Canadian Psychological Association Annual National Convention, St. John’s, Newfoundland, Canada.">
                   <div style="position: relative; width: 100%; height: 0; padding-top: 75%; border-radius: 8px; overflow: hidden;">
                     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                       src="https://www.canva.com/design/DAGm6tTczkM/o4LDKY554o9aBvb63PpOOA/view?embed">
@@ -24,8 +23,9 @@
                   </div>
                 </div>
 
-                <!-- Slide 2 -->
-                <div class="carousel-item" data-pdf-path="/assets/pdf/presentation-qm-2025.pdf">
+                <div class="carousel-item" 
+                     data-pdf-path="/assets/pdf/presentation-bayes-factors.pdf"
+                     data-caption="Martinez-Guttierez, N. & Cribbie, R. A. (2025, June 12-14). Replication Bayes Factors and Type I Error Control [12-minute talk]. 85th Canadian Psychological Association Annual National Convention, St. John’s, Newfoundland, Canada.">
                    <div style="position: relative; width: 100%; height: 0; padding-top: 75%; border-radius: 8px; overflow: hidden;">
                     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
                       src="https://www.canva.com/design/DAGoCEn_X9U/bPai5F9LxI5QWcpmMrZTlQ/view?embed">
@@ -34,7 +34,6 @@
                 </div>
 
               </div>
-              <!-- Carousel Controls (Arrows) -->
               <a class="carousel-control-prev" href="#presentationsCarousel" role="button" data-slide="prev">
                 <i class="ni ni-bold-left"></i>
                 <span class="sr-only">Previous</span>
@@ -45,8 +44,11 @@
               </a>
             </div>
 
-            <!-- 2. Dynamic Download PDF Button -->
-            <div class="text-center mt-4">
+            <p id="presentationCaption" class="text-center mt-4 lead">
+              Martinez-Guttierez, N., Mills, L. & Pepler, D. (2025, June 12-14). Interpretation of Clinical Significance in Psychological Research [12-minute talk]. 85th Canadian Psychological Association Annual National Convention, St. John’s, Newfoundland, Canada.
+            </p>
+
+            <div class="text-center mt-3">
               <a id="downloadPresentationBtn" href="/assets/pdf/presentation-clinical-significance.pdf" class="btn btn-primary" download>
                 <i class="ni ni-cloud-download-95 mr-2"></i>Download PDF
               </a>
@@ -59,18 +61,26 @@
   </div>
 </div>
 
-<!-- 3. JavaScript to update the download link -->
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    var carousel = document.querySelector('#presentationsCarousel');
     var downloadBtn = document.querySelector('#downloadPresentationBtn');
+    var captionElement = document.querySelector('#presentationCaption');
 
     // This is a bootstrap 4 event, it fires when a slide changes
     $('#presentationsCarousel').on('slide.bs.carousel', function (event) {
-      // Get the pdf path from the data-pdf-path attribute of the incoming slide
-      var pdfPath = event.relatedTarget.getAttribute('data-pdf-path');
+      // Get the incoming slide
+      var activeSlide = event.relatedTarget;
+
+      // Update the Download Button
+      var pdfPath = activeSlide.getAttribute('data-pdf-path');
       if (pdfPath) {
         downloadBtn.setAttribute('href', pdfPath);
+      }
+      
+      // Update the Caption Text
+      var captionText = activeSlide.getAttribute('data-caption');
+      if (captionText) {
+        captionElement.innerHTML = captionText;
       }
     });
   });
