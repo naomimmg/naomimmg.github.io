@@ -16,27 +16,27 @@ This template can be edited and changed in _pages/features.md. Just pick the com
 
 ---
 ```components/features/feature-1.html ```
-{% include components/features/feature-1.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-2.html ```
-{% include components/features/feature-2.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-3.html ```
-{% include components/features/feature-3.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-4.html ```
-{% include components/features/feature-4.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-5.html ```
-{% include components/features/feature-5.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-6.html ```
-{% include components/features/feature-7.html %}
+{% include components/features/feature-6.html %}
 
 ---
 ```components/features/feature-7.html ```
