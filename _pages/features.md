@@ -43,5 +43,5 @@ This template can be edited and changed in _pages/features.md. Just pick the com
 {% include components/features/feature-6.html %}
 
 ---
-```components/features/feature-8.html ```
+```components/features/feature-6.html ```
 {% include components/accordion.html %}
