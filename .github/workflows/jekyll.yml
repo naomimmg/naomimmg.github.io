@@ -5,7 +5,7 @@ name: Build and Deploy Jekyll Site
 on:
   push:
     branches:
-      - main  # Or your default branch, e.g., master
+      - main
 
 jobs:
   build_and_deploy:
@@ -14,6 +14,12 @@ jobs:
       contents: read
       pages: write
       id-token: write
+    
+    # This is the new block that fixes the error
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -21,8 +27,8 @@ jobs:
       - name: Setup Ruby ✨
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Or the Ruby version you need
-          bundler-cache: true # Caches gems for faster builds
+          ruby-version: '3.1'
+          bundler-cache: true
 
       - name: Build Jekyll Site 🛠️
         run: bundle exec jekyll build
@@ -30,7 +36,7 @@ jobs:
       - name: Upload Artifact 📦
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './_site' # The folder where Jekyll builds your site
+          path: './_site'
 
       - name: Deploy to GitHub Pages 🚀
         id: deployment
