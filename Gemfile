@@ -13,4 +13,6 @@ gem "rexml"
 # Add any other plugins you have below
 group :jekyll_plugins do
   gem "jekyll-seo-tag"
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
 end
