@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.3.3"
+gem 'jekyll', '3.8.5'
 gem "rexml"
 
 group :jekyll_plugins do
