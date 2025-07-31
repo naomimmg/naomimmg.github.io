@@ -14,7 +14,6 @@ gem "rexml"
 # List all your Jekyll plugins here
 group :jekyll_plugins do
   gem "jekyll-sitemap"      # From your original file
-  gem 'jekyll-paginate'
   gem "jekyll-paginate-v2"  # The modern replacement for pagination
   gem "jekyll-seo-tag"      # A common and useful plugin
 end
