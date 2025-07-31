@@ -15,7 +15,7 @@ Any component or section present in the [Argon Pro docs](https://demos.creative-
 This template can be edited and changed in _pages/features.md. Just pick the components you like, then edit them to display your features.
 
 ---
-```components/features/feature-6.html ```
+
 {% include components/features/feature-6.html %}
 
 ---
