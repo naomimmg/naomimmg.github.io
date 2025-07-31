@@ -39,10 +39,19 @@
       text-decoration: none;
       color: inherit;
     }
-    .features-6 h2 {
-      text-align: center; /* Center the "Publications" title */
-      margin-bottom: 3rem; /* Add some space below the title */
+    
+    /* START: ADD THESE NEW, STRONGER RULES */
+    .features-6 h2.display-3 {
+      text-align: center;
+      margin-bottom: 3rem; 
     }
+
+    .features-6 .col-lg-10 {
+      width: 100% !important; /* Force it to obey the column width */
+      max-width: 1140px !important; /* Set a max-width for readability on huge screens */
+      flex: 0 0 83.333333% !important; /* This is what col-lg-10 does, but with !important */
+    }
+    /* END: ADD THESE NEW, STRONGER RULES */
   </style>
   <div class="container-fluid">
     <div class="row justify-content-center">
