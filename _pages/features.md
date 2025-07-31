@@ -5,8 +5,6 @@ description: Use the Argon Jekyll theme to build a landing page, blog or complet
 featured_image: /assets/img/sections/unsplashs.jpg
 ---
 
---- 
-
 #### Getting Started
 You'll find some helpful samples on this page of what is possible with this theme below. 
 
@@ -17,31 +15,10 @@ This template can be edited and changed in _pages/features.md. Just pick the com
 ---
 
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/features/feature-6.html %}
-
----
-```components/features/feature-6.html ```
 {% include components/accordion.html %}
