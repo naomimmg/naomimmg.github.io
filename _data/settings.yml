@@ -35,8 +35,8 @@ menu_settings:
       url: /
       submenu_items:
       - title: Contact
-        url: '/home'
-        icon: ni-email-83 text-success
+        url: /
+        icon: ni-email-83 text-primary
       - title: Publications
         url: /
         icon: ni-books text-success
@@ -55,27 +55,15 @@ menu_settings:
       - title: Presentations
         url: /blog # Note: You may want to create a dedicated /presentations page
         icon: ni-tv-2 text-danger # Old: ni-book-bookmark text-primary
-    - title: 'Projects'
+    - title: 'Teaching Resources'
       submenu_items:
-      - title: Research
+      - title: Intro to R
         url: /blog
         icon: ni-zoom-split-in text-info # Old: ni-book-bookmark text-primary
-      - title: Collaborations
+      - title: PSYC2021N
         url: /blog-narrow-example
         icon: ni-ui-04 text-success # Old: ni-books text-primary
-      - title: Online Apps
-        url: /blog-grid-example
-        icon: ni-app text-danger # Old: ni-mobile-button text-info 
-    - title: 'Tutorials'
-      url: '/features'
-      submenu_items:
-      - title: Statistical Methods
-        url: /blog
-        icon: ni-chart-bar-32 text-primary # This was already a good choice
-      - title: Coding 
-        url: /blog-narrow-example
-        icon: ni-laptop text-success # Old: ni-ruler-pencil text-success
-    - title: 'Consulting'
+    - title: 'Book Consultation'
       url: '/contact'
       # You can add an icon to a top-level item if your theme supports it.
       # icon: ni-calendar-grid-58
