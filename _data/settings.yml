@@ -38,7 +38,7 @@ menu_settings:
         url: /
         icon: ni-email-83 text-primary
       - title: Publications
-        url: /
+        url: /#pub
         icon: ni-books text-success
     - title: 'About'
       url: '/about' 
