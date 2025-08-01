@@ -35,8 +35,11 @@ menu_settings:
       url: /
       submenu_items:
       - title: Contact
-        url: '/about'
+        url: '/home'
         icon: ni-email-83 text-success
+      - title: Publications
+        url: /
+        icon: ni-books text-success
     - title: 'About'
       url: '/about' 
       submenu_items:
