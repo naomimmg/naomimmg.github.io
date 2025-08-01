@@ -50,10 +50,10 @@ menu_settings:
         url: /about#skills
         icon: ni-atom text-success # Old: ni-book-bookmark text-primary
       - title: Work Experience
-        url: /blog # Note: You may want to create a dedicated /experience page
+        url: /about#work
         icon: ni-briefcase-24 text-warning # Old: ni-book-bookmark text-primary
       - title: Presentations
-        url: /blog # Note: You may want to create a dedicated /presentations page
+        url: /about#pres
         icon: ni-tv-2 text-danger # Old: ni-book-bookmark text-primary
     - title: 'Teaching Resources'
       submenu_items:
