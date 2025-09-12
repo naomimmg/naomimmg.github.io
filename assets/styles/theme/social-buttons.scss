@@ -1,8 +1,5 @@
 .btn{
   // social buttons
-  &.btn-facebook {
-    @include social-buttons-color($facebook, $facebook-states);
-  }
   &.btn-twitter {
     @include social-buttons-color($twitter, $twitter-states);
   }
