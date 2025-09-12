@@ -61,7 +61,7 @@ menu_settings:
         url: /blog
         icon: ni-zoom-split-in text-info # Old: ni-book-bookmark text-primary
       - title: PSYC2021N
-        url: /blog-narrow-example
+        url: /
         icon: ni-ui-04 text-success # Old: ni-books text-primary
     - title: 'Book Consultation'
       url: '/contact'
