@@ -12,7 +12,7 @@ You'll find this inside the `_data` folder – this is where you can set all of 
 
 ---
 
- {% include components/blog/narrow.html %}  
+
 
 
 
