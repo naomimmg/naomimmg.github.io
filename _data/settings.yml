@@ -63,6 +63,18 @@ menu_settings:
       - title: PSYC2021N
         url: /
         icon: ni-ui-04 text-success # Old: ni-books text-primary
+      - title: The Dance of the p-values
+        url: https://naomimmg.github.io/p-value-dance/
+        icon: ni-chart-bar-32 text-primary
+      - title: Same Stats, Different Data
+        url: https://naomimmg.github.io/same-stats-different-data/
+        icon: ni-chart-pie-35 text-warning
+      - title: Basic Math Review
+        url: https://naomimmg.github.io/basic-math-review/
+        icon: ni-ruler-pencil text-danger
+      - title: ShinyMosaics
+        url: https://fohpsyc.shinyapps.io/Shiny-Mosaics/
+        icon: ni-app text-info
     - title: 'Book Consultation'
       url: '/contact'
       # You can add an icon to a top-level item if your theme supports it.
@@ -86,7 +98,7 @@ social_settings:
   behance_url: ''
   github_url: 'https://github.com/naomimmg'
   reddit_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/naomi-martinez-gutierrez-729b67417'
 
 authors:
   tom:
