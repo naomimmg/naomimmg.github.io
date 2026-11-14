@@ -1,7 +1,7 @@
 <header class="header-1 fullWidth">
   <div class="page-header">
     <div class="page-header-image" style="background-image: url('{{ '/assets/img/ill/p2.svg' | relative_url }}')"></div>
-    <div class="container">
+    <div class="container-fluid intro-aligned">
       <div class="row">
         <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
           <h3 class="display-3">Hello! I'm Naomi Martinez Gutierrez</h3>
@@ -54,6 +54,17 @@
 
 <style>
   /* Your existing styles remain unchanged */
+  /* Line the intro text up with the left edge of the publication cards */
+  .intro-aligned {
+    padding-left: calc(3rem + 15px);
+    padding-right: calc(3rem + 15px);
+  }
+  @media (min-width: 768px) {
+    .intro-aligned {
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+  }
   /* Let the publications section span the full screen width */
   #pub {
     width: 100vw;
