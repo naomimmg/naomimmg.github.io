@@ -37,6 +37,9 @@ menu_settings:
       - title: Contact
         url: /
         icon: ni-email-83 text-primary
+      - title: Teaching
+        url: /#teaching
+        icon: ni-hat-3 text-warning
       - title: Publications
         url: /#pub
         icon: ni-books text-success
