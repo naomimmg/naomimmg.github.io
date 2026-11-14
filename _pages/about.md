@@ -8,7 +8,7 @@ featured_image: /assets/img/sections/broofoac.jpg
 <style>
   /* Shorter banner on the About page */
   .page-header.page-header-small { min-height: 320px !important; height: 320px; max-height: 320px; }
-  .page-header.page-header-small .page-header-image { background-position: 50% 35%; }
+  .page-header.page-header-small .page-header-image { background-position: 50% 48%; }
 </style>
 
 {% include components/teams/team-carousel-1.html %}
