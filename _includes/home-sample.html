@@ -64,7 +64,8 @@
   .hero-art .flower:hover { transform: rotate(90deg) scale(1.08); }
   .hero-art .dot:hover { transform: scale(1.3); }
   .hero-art .shape:hover { transform: rotate(-6deg) scale(1.04); }
-  .intro-aligned { pointer-events: none; }
+  .header-1 .page-header-image { z-index: 0 !important; }
+  .intro-aligned { pointer-events: none; position: relative; z-index: 1; }
   .intro-aligned .row > div, .intro-aligned a { pointer-events: auto; }
   @media (prefers-reduced-motion: reduce) {
     .hero-art path { transition: none; }
