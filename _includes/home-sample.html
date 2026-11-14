@@ -1,6 +1,6 @@
 <header class="header-1 fullWidth">
   <div class="page-header">
-    <div class="page-header-image">{% include hero-art.svg %}</div>
+    <div class="page-header-image" style="background-image: url('{{ '/assets/img/ill/p2.svg' | relative_url }}')">{% include hero-art.svg %}</div>
     <div class="container-fluid intro-aligned">
       <div class="row">
         <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
@@ -55,7 +55,13 @@
 <style>
   /* Your existing styles remain unchanged */
   /* Header illustration: shapes react when the cursor passes over them */
-  .hero-art { width: 100%; height: 100%; display: block; }
+  /* Phones/tablets keep the original faded background picture;
+     on larger screens the interactive copy replaces it, same size and position */
+  .hero-art { display: none; }
+  @media (min-width: 992px) {
+    .header-1 .page-header .page-header-image { background-image: none !important; }
+    .hero-art { display: block; width: 100%; height: 100%; }
+  }
   .hero-art path {
     transform-box: fill-box;
     transform-origin: center;
