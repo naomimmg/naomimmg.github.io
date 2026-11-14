@@ -4,31 +4,15 @@
     <div class="container-fluid intro-aligned">
       <div class="row">
         <div class="col-lg-5 col-md-7 mr-auto text-left d-flex justify-content-center flex-column">
-          <h3 class="display-3">Hello! I'm Naomi Martinez Gutierrez</h3>
-          <p class="lead mt-0">I'm a quantitative methodologist in psychology (PhD, York University, 2026) and a statistical consultant. I work on psychometrics, survey and scale design, and statistical methods, and I build R/Shiny tools and teaching resources. This website showcases my ongoing and completed projects.</p>
-          <br>
-          <br>
-
-          <div class="row">
-            <div class="col-md-6">
-              <div class="info info-hover">
-                <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
-                  <i class="ni ni-email-83"></i>
-                </div>
-                <h4 class="info-title">Email</h4>
-                <a href="mailto:naomimzgz@gmail.com" class="text-dark">naomimzgz@gmail.com</a>
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <div class="info info-hover">
-                <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
-                  <i class="ni ni-mobile-button"></i>
-                </div>
-                <h4 class="info-title">Phone</h4>
-                <a href="tel:+14168380532" class="text-dark">+1(416) 838 0532</a>
-              </div>
-            </div>
+          <img src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Naomi Martinez Gutierrez" class="hero-headshot mb-4">
+          <h3 class="display-3">Hello! I'm Naomi Martinez Gutierrez</h3>
+          <p class="lead mt-0">I'm a quantitative methodologist in psychology (PhD, York University, 2026). I teach undergraduate statistics, build interactive R/Shiny tools for learning statistics, and work as a statistical consultant.</p>
+          <p class="mt-2 mb-0"><strong>Research:</strong> how psychologists can draw sounder conclusions from their data &mdash; equivalence testing and effect sizes, replication and Type I errors, multiplicity control, and measurement (item response theory) &mdash; along with applied outcomes research on youth in wilderness therapy and residential treatment.</p>
+          <div class="hero-links mt-4">
+            <a class="btn btn-primary btn-sm" href="https://scholar.google.ca/citations?user=v4DuZYIAAAAJ&amp;hl=en" target="_blank" rel="noopener"><i class="fa fa-graduation-cap mr-1"></i> Google Scholar</a>
+            <a class="btn btn-outline-primary btn-sm" href="https://orcid.org/0000-0002-7857-3189" target="_blank" rel="noopener"><i class="fa fa-id-badge mr-1"></i> ORCID</a>
+            <a class="btn btn-outline-primary btn-sm" href="https://github.com/naomimmg" target="_blank" rel="noopener"><i class="fa fa-github mr-1"></i> GitHub</a>
+            <a class="btn btn-outline-primary btn-sm" href="mailto:naomimzgz@gmail.com"><i class="fa fa-envelope mr-1"></i> naomimzgz@gmail.com</a>
           </div>
                   
         </div>
@@ -36,6 +20,53 @@
     </div>    
   </div>
 </header>
+
+<section class="teaching-section" id="teaching">
+  <div class="container-fluid px-md-5">
+    <div class="text-center mb-5">
+      <h3 class="display-3">Teaching</h3>
+      <p class="lead mt-0">Undergraduate statistics at York University, taught with R, simulations, and live polling.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100"><div class="card-body">
+          <h5 class="mb-3">Courses</h5>
+          <ul class="pl-3 mb-3">
+            <li><strong>Course Director</strong>, PSYC 4330 Seminar in Statistics (ANOVA, factor analysis, SEM) &mdash; <em>Winter 2027</em></li>
+            <li><strong>Course Director</strong>, PSYC 3031 Intermediate Statistics I (regression) &mdash; <em>Winter 2027</em></li>
+            <li><strong>Course Director</strong>, PSYC 2021 Statistical Methods I &mdash; <em>Winter 2026</em>: designed the syllabus, lectures, every assessment, and the R-based modules</li>
+            <li>Teaching Assistant in statistics and research-methods courses since 2019, including PSYC 2021, 2022, 2030, 3410, 4001 and the graduate course PSYC 6132</li>
+          </ul>
+          <p class="mb-2"><strong>Award:</strong> Teaching Assistantship Award, York University (2023)</p>
+          <p class="mb-0"><strong>Mentorship:</strong> I supervise undergraduate students on ongoing research projects.</p>
+          <div class="mt-3">
+            <a class="btn btn-primary btn-sm" href="{{ '/syllabus/' | relative_url }}">PSYC 2021 syllabus</a>
+            <a class="btn btn-outline-primary btn-sm" href="{{ '/evidence-effectiveness/' | relative_url }}">Evidence of teaching effectiveness</a>
+          </div>
+        </div></div>
+      </div>
+      <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100"><div class="card-body">
+          <h5 class="mb-3">What students said (PSYC 2021, Winter 2026)</h5>
+          <div class="d-flex flex-wrap mb-3 teach-stats">
+            <div class="mr-4 mb-2"><span class="stat">69%</span><br><small>said their feelings toward statistics improved (29 of 42), including 14 of the 19 who started out anxious</small></div>
+            <div class="mb-2"><span class="stat">73%</span><br><small>rated learning R as valuable (43 of 59), though 72% had never coded before</small></div>
+          </div>
+          <blockquote class="teach-quote">&ldquo;I appreciated our professor&rsquo;s belief in us and our ability to learn. Optimism doesn&rsquo;t go unnoticed.&rdquo;</blockquote>
+          <blockquote class="teach-quote">&ldquo;The free textbook &amp; the practice q&rsquo;s for each lesson &ndash; I appreciate that you as a prof think about your students in a way most don&rsquo;t.&rdquo;</blockquote>
+          <blockquote class="teach-quote mb-0">What a student appreciated most: my &ldquo;willingness to assist me in person. It meant a lot, especially on our class assignments.&rdquo;</blockquote>
+        </div></div>
+      </div>
+    </div>
+    <h5 class="mt-2 mb-3">Interactive tools I built for my statistics courses</h5>
+    <div class="row">
+      <div class="col-md-6 col-lg-3 mb-3"><a class="tool-card" href="{{ '/p-value-dance/' | relative_url }}"><strong>The Dance of the p-values</strong><br><small>Watch p-values jump from sample to sample, and see why one study is never the final word.</small></a></div>
+      <div class="col-md-6 col-lg-3 mb-3"><a class="tool-card" href="{{ '/same-stats-different-data/' | relative_url }}"><strong>Same Stats, Different Data</strong><br><small>Datasets with identical means and correlations that look nothing alike &mdash; why we plot first.</small></a></div>
+      <div class="col-md-6 col-lg-3 mb-3"><a class="tool-card" href="https://fohpsyc.shinyapps.io/Shiny-Mosaics/" target="_blank" rel="noopener"><strong>ShinyMosaics</strong><br><small>An R/Shiny app for exploring categorical data with mosaic plots.</small></a></div>
+      <div class="col-md-6 col-lg-3 mb-3"><a class="tool-card" href="{{ '/intro-r/' | relative_url }}"><strong>Introduction to R</strong><br><small>A self-paced first course in R for psychology students with no coding background.</small></a></div>
+    </div>
+  </div>
+</section>
 
 <div class="col-12 mx-auto text-center mb-5" id="pub">
 <h3 class="display-3 text-center">Publications</h3>
@@ -54,6 +85,15 @@
 
 <style>
   /* Your existing styles remain unchanged */
+  /* Hero headshot, academic links, and teaching section */
+  .hero-headshot { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 6px 18px rgba(50,50,93,.18); }
+  .hero-links .btn { margin: 0 .4rem .5rem 0; text-transform: none; }
+  .teaching-section { padding: 3rem 0 1rem; }
+  .teach-stats .stat { font-size: 2rem; font-weight: 700; color: #5e72e4; line-height: 1; }
+  .teach-stats small { display: inline-block; max-width: 260px; }
+  .teach-quote { border-left: 3px solid #5e72e4; padding: .25rem 0 .25rem 1rem; margin: 0 0 .9rem; font-style: italic; color: #525f7f; font-size: 1rem; }
+  .tool-card { display: block; height: 100%; padding: 1rem 1.1rem; border-radius: .5rem; background: #f6f9fc; color: #32325d; transition: transform .2s, box-shadow .2s; }
+  .tool-card:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(50,50,93,.15); color: #32325d; text-decoration: none; }
   /* Header illustration: shapes react when the cursor passes over them */
   /* Phones/tablets keep the original faded background picture;
      on larger screens the interactive copy replaces it, same size and position */

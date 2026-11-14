@@ -60,8 +60,8 @@ menu_settings:
       - title: Intro to R
         url: /blog
         icon: ni-zoom-split-in text-info # Old: ni-book-bookmark text-primary
-      - title: PSYC2021N
-        url: /
+      - title: PSYC 2021 Syllabus
+        url: /syllabus/
         icon: ni-ui-04 text-success # Old: ni-books text-primary
       - title: The Dance of the p-values
         url: https://naomimmg.github.io/p-value-dance/
