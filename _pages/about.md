@@ -2,7 +2,7 @@
 title: About Me
 subtitle: 
 description: Use the Argon Jekyll theme to build a landing page, blog or complete website.
-featured_image: /assets/img/sections/about-banner-slim.jpg
+featured_image: /assets/img/sections/about-banner-v3.jpg
 ---
 
 <style>
