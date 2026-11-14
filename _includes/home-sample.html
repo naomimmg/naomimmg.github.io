@@ -89,6 +89,13 @@
     flex: 1 1 auto;
     min-width: 0;
   }
+  /* Keep all card text readable on the purple hover background */
+  #publications-container .publication-link:hover .info .title,
+  #publications-container .publication-link:hover .info p,
+  #publications-container .publication-link:hover .info span,
+  #publications-container .publication-link:hover .info .read-more-btn {
+    color: #ffffff !important;
+  }
   @media (max-width: 576px) {
     .pub-photo { width: 90px; height: 90px; min-width: 90px; }
   }
