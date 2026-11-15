@@ -58,6 +58,17 @@ menu_settings:
       - title: Presentations
         url: /about#pres
         icon: ni-tv-2 text-danger # Old: ni-book-bookmark text-primary
+    - title: 'Courses Taught'
+      submenu_items:
+      - title: 'PSYC 2021: Statistical Methods I'
+        url: /syllabus/
+        icon: ni-hat-3 text-primary
+      - title: 'PSYC 3031: Intermediate Statistics I'
+        url: /psyc3031
+        icon: ni-chart-bar-32 text-success
+      - title: 'PSYC 4330: Seminar in Statistics'
+        url: /psyc4330
+        icon: ni-atom text-warning
     - title: 'Teaching Resources'
       submenu_items:
       - title: Intro to R
