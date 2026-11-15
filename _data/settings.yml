@@ -61,7 +61,7 @@ menu_settings:
     - title: 'Courses Taught'
       submenu_items:
       - title: 'PSYC 2021: Statistical Methods I'
-        url: /syllabus/
+        url: /psyc2021
         icon: ni-hat-3 text-primary
       - title: 'PSYC 3031: Intermediate Statistics I'
         url: /psyc3031
@@ -75,7 +75,7 @@ menu_settings:
         url: /blog
         icon: ni-zoom-split-in text-info # Old: ni-book-bookmark text-primary
       - title: PSYC 2021 Syllabus
-        url: /syllabus/
+        url: /psyc2021-syllabus
         icon: ni-ui-04 text-success # Old: ni-books text-primary
       - title: The Dance of the p-values
         url: https://naomimmg.github.io/p-value-dance/
